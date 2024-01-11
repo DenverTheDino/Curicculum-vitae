@@ -37,7 +37,7 @@
   }
   
   .text-blue{
-    color: #4472C4;
+    color: rgb(120, 10, 10);
   }
   
   .text-darkblue{
@@ -56,8 +56,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "left-column right-column right-column";
-    width: 1200px;
-    margin: 100px auto;
+    width: 100%;
+    /* margin: 100px auto; */
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   
@@ -69,8 +69,8 @@
   .left-column{
     grid-area: left-column;
     padding: 50px;
-    background-color: #4472C4;
-    color: white;
+    background-color: #c61111;
+    color: rgb(255, 255, 255);
   }
   
   .portait{
@@ -124,3 +124,15 @@
   .experience-list{
     list-style-type: circle;
   }
+ .linkedin{
+    text-decoration: none;
+    color: black;
+} 
+.linkedin:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-witdh: 430px ){
+    
+}
