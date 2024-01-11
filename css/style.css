@@ -41,7 +41,7 @@
   }
   
   .text-darkblue{
-    color: #002060;
+    color: #000000;
   }
   
   .text-uppercase{
@@ -126,10 +126,10 @@
   }
  .linkedin{
     text-decoration: none;
-    color: black;
+    color: white;
 } 
 .linkedin:hover{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
